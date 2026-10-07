@@ -59,6 +59,9 @@
             <h2 class="text-xs sm:text-base md:text-lg font-medium text-amber-200 relative z-10 leading-relaxed px-2">
                 တရားထောက်များနှင့် ယောဂီများ စုပေါင်းကောင်းမှု
             </h2>
+            <p class="text-xs sm:text-sm md:text-base font-semibold text-amber-300 relative z-10 mt-1">
+                နတ်လူသာဓု ခေါ်စေသော်
+            </p>
         </section>
 
         <!-- Intro Description Box -->
@@ -76,7 +79,7 @@
                 စုစုပေါင်း လှူဒါန်းရရှိငွေ
             </span>
             <div id="totalAmount" class="text-xl sm:text-3xl md:text-4xl font-extrabold text-white tracking-wider">
-                ၃,၇၈၀,၀၀၀ ကျပ်
+                ၂၀,၈၈၀,၀၀၀ ကျပ်
             </div>
         </section>
 
@@ -88,176 +91,295 @@
                     <span>လှူဒါန်းမှု စာရင်းများ</span>
                 </h3>
                 <span id="donorCountBadge" class="text-[10px] sm:text-xs font-semibold bg-amber-200/80 text-amber-900 px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full">
-                    ၂၂ ဦး
+                    ၂၄ ဦး
                 </span>
             </div>
 
-            <!-- 1. Mobile View Cards (Visible on Mobile/Small Screens only) -->
+            <!-- 1. Mobile View Cards (Optimized: Name Top Full-Width, Amount Bottom-Right) -->
             <div class="block md:hidden p-3 space-y-3 bg-amber-50/30">
+                
                 <!-- Donor Card 1 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်လျိုစီမင်း မိသားစု</div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၁,၀၀၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">
+                        <span class="text-amber-700 font-semibold text-[11px] block mb-0.5">မိဘများအား အမှူးထား၍</span>
+                        ကို Daniel Collins + မအင်ကြင်းလှမြင့် မိသားစု
+                    </div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၁၇,၀၀၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 2 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်နီနီလွင် မိသားစု</div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၁၀၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်လျိုစီမင်း မိသားစု</div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၁,၀၀၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 3 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">
-                        ဦးဟုတ်စိန် + ဒေါ်အေးအေးခိုင်<br>
-                        <span class="text-gray-600 text-[11px] block">သမီး မသိမ့်သဉ္ဇာစိုး၊ မစမ်းစန္ဒာစိုး</span>
-                        <span class="text-gray-600 text-[11px] block">မိသားစု (ဖြူးမြို့)</span>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်နီနီလွင် မိသားစု</div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၁၀၀,၀၀၀ ကျပ်
+                        </span>
                     </div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၁၀၀,၀၀၀ ကျပ်</div>
                 </div>
 
                 <!-- Donor Card 4 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်အေးအေးသန်း မိသားစု</div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၁၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">
+                        ဦးဟုတ်စိန် + ဒေါ်အေးအေးခိုင်<br>
+                        <span class="text-gray-600 font-normal text-[11px] block">သမီး မသိမ့်သဉ္ဇာစိုး၊ မစမ်းစန္ဒာစိုး မိသားစု (ဖြူးမြို့)</span>
+                    </div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၁၀၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 5 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed"><span class="text-gray-500 text-[11px] block">မိဘနှစ်ပါးအား အမှူးထား၍</span>ဦးဇော်လင်း + ဒေါ်အိအိလွင် မိသားစု</div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၅၀၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်အေးအေးသန်း မိသားစု</div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၁၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 6 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed"><span class="text-gray-500 text-[11px] block">ဒေါ်တင်တင်လှိုင် အမှူးထား၍</span>ဒေါ်ခင်မာဦး (ခင်မေဦး အထည်ဆိုင်)<br><span class="text-gray-600 text-[11px]">ကြည့်မြင်တိုင်ညဈေး မိသားစု</span></div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၅၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">
+                        <span class="text-amber-700 font-semibold text-[11px] block mb-0.5">မိဘနှစ်ပါးအား အမှူးထား၍</span>
+                        ဦးဇော်လင်း + ဒေါ်အိအိလွင် မိသားစု
+                    </div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၅၀၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 7 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">ကိုလွှမ်းမိုးအောင် + မနော်မူး မိသားစု</div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၁၀၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">
+                        <span class="text-amber-700 font-semibold text-[11px] block mb-0.5">ဒေါ်တင်တင်လှိုင် အမှူးထား၍</span>
+                        ဒေါ်ခင်မာဦး (ခင်မေဦး အထည်ဆိုင်)<br>
+                        <span class="text-gray-600 font-normal text-[11px]">ကြည့်မြင်တိုင်ညဈေး မိသားစု</span>
+                    </div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၅၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 8 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed"><span class="text-gray-500 text-[11px] block">မိခင်ကြီး ဒေါ်ထွေး အမှူးထား၍</span>ဒေါ်မို့မို့ မိသားစု</div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၁၀၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">ကိုလွှမ်းမိုးအောင် + မနော်မူး မိသားစု</div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၁၀၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 9 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">မဧပရယ်ဌေး မိသားစု</div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၅၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">
+                        <span class="text-amber-700 font-semibold text-[11px] block mb-0.5">မိခင်ကြီး ဒေါ်ထွေး အမှူးထား၍</span>
+                        ဒေါ်မို့မို့ မိသားစု
+                    </div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၁၀၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 10 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်နုနုခိုင် မိသားစု</div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၁၀၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">မဧပရယ်ဌေး မိသားစု</div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၅၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 11 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">ထူးလင်းယံ မိသားစု (စမ်းချောင်း)</div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၁၀၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်နုနုခိုင် မိသားစု</div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၁၀၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 12 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">
-                        ဦးဇာနည်ဝင်းထွန်း + ဒေါ်ကျော့ကျော့ခိုင်<br>
-                        <span class="text-gray-600 text-[11px] block">သမီး မအိဇာနည်ဖြိုး၊</span>
-                        <span class="text-gray-600 text-[11px] block">သား မောင်အားသစ်ဇာနည် မိသားစု (နေပြည်တော်)</span>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">ထူးလင်းယံ မိသားစု (စမ်းချောင်း)</div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၁၀၀,၀၀၀ ကျပ်
+                        </span>
                     </div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၃၀၀,၀၀၀ ကျပ်</div>
                 </div>
 
                 <!-- Donor Card 13 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်သီသီလှိုင် မိသားစု</div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၅၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">
+                        ဦးဇာနည်ဝင်းထွန်း + ဒေါ်ကျော့ကျော့ခိုင်<br>
+                        <span class="text-gray-600 font-normal text-[11px] block">သမီး မအိဇာနည်ဖြိုး၊ သား မောင်အားသစ်ဇာနည် မိသားစု (နေပြည်တော်)</span>
+                    </div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၃၀၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 14 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">
-                        ကိုကျော်စွာ + မတင်တင်နွယ် မိသားစု<br>
-                        <span class="text-gray-600 text-[11px] block">(နေပြည်တော်)</span>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်သီသီလှိုင် မိသားစု</div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၅၀,၀၀၀ ကျပ်
+                        </span>
                     </div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၁၀၀,၀၀၀ ကျပ်</div>
                 </div>
 
                 <!-- Donor Card 15 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">
-                        ကိုစခိုင်မင်းဦး + မဖြူဖြူဝင်း<br>
-                        <span class="text-gray-600 text-[11px] block">သမီး မဖြူဖြူခိုင်မင်း၊</span>
-                        <span class="text-gray-600 text-[11px] block">သား မောင်လရောင်လင်း မိသားစု</span>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">
+                        ကိုကျော်စွာ + မတင်တင်နွယ် မိသားစု <span class="text-gray-600 font-normal text-[11px]">(နေပြည်တော်)</span>
                     </div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၅၀,၀၀၀ ကျပ်</div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၁၀၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 16 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">မချောစုလှိုင် မိသားစု</div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၂၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">
+                        ကိုစခိုင်မင်းဦး + မဖြူဖြူဝင်း<br>
+                        <span class="text-gray-600 font-normal text-[11px] block">သမီး မဖြူဖြူခိုင်မင်း၊ သား မောင်လရောင်လင်း မိသားစု</span>
+                    </div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၅၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 17 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">
-                        <span class="text-gray-500 text-[11px] block">ကွယ်လွန်သူ မောင်သုတစံ အားရည်စူး၍</span>
-                        မကလျာဝင်း မိသားစု
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">မချောစုလှိုင် မိသားစု</div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၂၀,၀၀၀ ကျပ်
+                        </span>
                     </div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၅၀,၀၀၀ ကျပ်</div>
                 </div>
 
                 <!-- Donor Card 18 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်ဌေးဌေးဝင်း မိသားစု</div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၅၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">
+                        <span class="text-amber-700 font-semibold text-[11px] block mb-0.5">ကွယ်လွန်သူ မောင်သုတစံ အားရည်စူး၍</span>
+                        မကလျာဝင်း မိသားစု
+                    </div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၅၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 19 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">
-                        <span class="text-gray-500 text-[11px] block">မိဘများအား အမှူးထား၍</span>
-                        ကိုသန်းဇော်ဦး + မမြင့်ကေခိုင်<br>
-                        <span class="text-gray-600 text-[11px] block">သမီး မပွင့်ကြည်ဖြူ၊</span>
-                        <span class="text-gray-600 text-[11px] block">သား မောင်ဟိန်းပြည့်နိုင် မိသားစု</span>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်ဌေးဌေးဝင်း မိသားစု</div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၅၀,၀၀၀ ကျပ်
+                        </span>
                     </div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၅၀၀,၀၀၀ ကျပ်</div>
                 </div>
 
                 <!-- Donor Card 20 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်ဆွေဆွေမြင့် မိသားစု</div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၁၀၀,၀၀၀ ကျပ်</div>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">
+                        <span class="text-amber-700 font-semibold text-[11px] block mb-0.5">မိဘများအား အမှူးထား၍</span>
+                        ကိုသန်းဇော်ဦး + မမြင့်ကေခိုင်<br>
+                        <span class="text-gray-600 font-normal text-[11px] block">သမီး မပွင့်ကြည်ဖြူ၊ သား မောင်ဟိန်းပြည့်နိုင် မိသားစု</span>
+                    </div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၅၀၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
 
                 <!-- Donor Card 21 -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">
-                        ကိုအောင်မြတ်သူ + မအေးအေးမွန် မိသားစု<br>
-                        <span class="text-gray-600 text-[11px] block">(ရွှေဘိုမြို့)</span>
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">ဒေါ်ဆွေဆွေမြင့် မိသားစု</div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၁၀၀,၀၀၀ ကျပ်
+                        </span>
                     </div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၃၀၀,၀၀၀ ကျပ်</div>
                 </div>
 
-                <!-- Donor Card 22 (New Added) -->
-                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex justify-between items-center space-x-3">
-                    <div class="font-medium text-gray-800 text-xs sm:text-sm leading-relaxed">
-                        ကိုသန့်ဇော်လင်း + မဝေမာ<br>
-                        <span class="text-gray-600 text-[11px] block">သား မောင်သက်ပိုင်လင်း၊</span>
-                        <span class="text-gray-600 text-[11px] block">သမီး မစံယွန်းမေ မိသားစု</span>
+                <!-- Donor Card 22 -->
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">
+                        ကိုအောင်မြတ်သူ + မအေးအေးမွန် မိသားစု <span class="text-gray-600 font-normal text-[11px]">(ရွှေဘိုမြို့)</span>
                     </div>
-                    <div class="text-right font-bold text-amber-900 text-xs sm:text-sm whitespace-nowrap bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-100">၅၀,၀၀၀ ကျပ်</div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၃၀၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
                 </div>
+
+                <!-- Donor Card 23 -->
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">
+                        ကိုသန့်ဇော်လင်း + မဝေမာ<br>
+                        <span class="text-gray-600 font-normal text-[11px] block">သား မောင်သက်ပိုင်လင်း၊ သမီး မစံယွန်းမေ မိသားစု</span>
+                    </div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၅၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Donor Card 24 -->
+                <div class="bg-white p-3.5 rounded-xl border border-amber-200 shadow-sm flex flex-col space-y-2">
+                    <div class="font-bold text-gray-800 text-xs sm:text-sm leading-relaxed">
+                        <span class="text-amber-700 font-semibold text-[11px] block mb-0.5">ဖခင်ကြီး ဦးတင်အေး အမှူးထား၍</span>
+                        သမီး မချို မိသားစု
+                    </div>
+                    <div class="flex justify-end">
+                        <span class="font-bold text-amber-900 text-xs sm:text-sm bg-amber-100/80 px-3 py-1 rounded-lg border border-amber-200/80">
+                            ၁၀၀,၀၀၀ ကျပ်
+                        </span>
+                    </div>
+                </div>
+
             </div>
 
-            <!-- 2. Desktop View Table (Visible on Laptop/Desktop Screens) -->
+            <!-- 2. Desktop View Table (Visible on Laptop/Desktop Screens - Unchanged) -->
             <div class="hidden md:block overflow-x-auto custom-scrollbar">
                 <table class="w-full text-left border-collapse min-w-full table-fixed">
                     <thead>
@@ -268,93 +390,100 @@
                     </thead>
                     <tbody id="donorTableBody" class="divide-y divide-amber-100 text-sm">
                         <tr class="bg-white hover:bg-amber-50/40">
+                            <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">မိဘများအား အမှူးထား၍ <br>ကို Daniel Collins + မအင်ကြင်းလှမြင့် မိသားစု</td>
+                            <td class="p-4 text-right font-bold text-amber-900 align-top">၁၇,၀၀၀,၀၀၀</td>
+                        </tr>
+                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ဒေါ်လျိုစီမင်း မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၁,၀၀၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
+                        <tr class="bg-white hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ဒေါ်နီနီလွင် မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၁၀၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-white hover:bg-amber-50/40">
+                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ဦးဟုတ်စိန် + ဒေါ်အေးအေးခိုင် <br>သမီး မသိမ့်သဉ္ဇာစိုး၊ မစမ်းစန္ဒာစိုး မိသားစု (ဖြူးမြို့)</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၁၀၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
+                        <tr class="bg-white hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ဒေါ်အေးအေးသန်း မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၁၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-white hover:bg-amber-50/40">
+                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">မိဘနှစ်ပါးအား အမှူးထား၍ <br>ဦးဇော်လင်း + ဒေါ်အိအိလွင် မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၅၀၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
+                        <tr class="bg-white hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ဒေါ်တင်တင်လှိုင် အမှူးထား၍ ဒေါ်ခင်မာဦး <br>(ခင်မေဦး အထည်ဆိုင်) ကြည့်မြင်တိုင်ညဈေး မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၅၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-white hover:bg-amber-50/40">
+                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ကိုလွှမ်းမိုးအောင် + မနော်မူး မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၁၀၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
+                        <tr class="bg-white hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">မိခင်ကြီး ဒေါ်ထွေး အမှူးထား၍ <br>ဒေါ်မို့မို့ မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၁၀၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-white hover:bg-amber-50/40">
+                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">မဧပရယ်ဌေး မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၅၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
+                        <tr class="bg-white hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ဒေါ်နုနုခိုင် မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၁၀၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-white hover:bg-amber-50/40">
+                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ထူးလင်းယံ မိသားစု (စမ်းချောင်း)</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၁၀၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
+                        <tr class="bg-white hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ဦးဇာနည်ဝင်းထွန်း + ဒေါ်ကျော့ကျော့ခိုင် <br>သမီး မအိဇာနည်ဖြိုး၊ သား မောင်အားသစ်ဇာနည် မိသားစု (နေပြည်တော်)</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၃၀၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-white hover:bg-amber-50/40">
+                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ဒေါ်သီသီလှိုင် မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၅၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
+                        <tr class="bg-white hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ကိုကျော်စွာ + မတင်တင်နွယ် မိသားစု (နေပြည်တော်)</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၁၀၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-white hover:bg-amber-50/40">
+                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ကိုစခိုင်မင်းဦး + မဖြူဖြူဝင်း <br>သမီး မဖြူဖြူခိုင်မင်း၊ သား မောင်လရောင်လင်း မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၅၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
+                        <tr class="bg-white hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">မချောစုလှိုင် မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၂၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-white hover:bg-amber-50/40">
+                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ကွယ်လွန်သူ မောင်သုတစံ အားရည်စူး၍ <br>မကလျာဝင်း မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၅၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
+                        <tr class="bg-white hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ဒေါ်ဌေးဌေးဝင်း မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၅၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-white hover:bg-amber-50/40">
+                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">မိဘများအား အမှူးထား၍ <br>ကိုသန်းဇော်ဦး + မမြင့်ကေခိုင် <br>သမီး မပွင့်ကြည်ဖြူ၊ သား မောင်ဟိန်းပြည့်နိုင် မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၅၀၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
+                        <tr class="bg-white hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ဒေါ်ဆွေဆွေမြင့် မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၁၀၀,၀၀၀</td>
                         </tr>
-                        <tr class="bg-white hover:bg-amber-50/40">
+                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ကိုအောင်မြတ်သူ + မအေးအေးမွန် မိသားစု (ရွှေဘိုမြို့)</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၃၀၀,၀၀၀</td>
                         </tr>
-                        <!-- New Donor Entry (Desktop) -->
-                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
+                        <tr class="bg-white hover:bg-amber-50/40">
                             <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ကိုသန့်ဇော်လင်း + မဝေမာ <br>သမီး မစံယွန်းမေ၊ သား မောင်သက်ပိုင်လင်း မိသားစု</td>
                             <td class="p-4 text-right font-bold text-amber-900 align-top">၅၀,၀၀၀</td>
+                        </tr>
+                        <tr class="bg-amber-50/20 hover:bg-amber-50/40">
+                            <td class="p-4 border-r border-amber-100 font-medium text-gray-800 leading-normal">ဖခင်ကြီး ဦးတင်အေး အမှူးထား၍ <br>သမီး မချို မိသားစု</td>
+                            <td class="p-4 text-right font-bold text-amber-900 align-top">၁၀၀,၀၀၀</td>
                         </tr>
                     </tbody>
                 </table>
